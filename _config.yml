@@ -58,7 +58,7 @@ tag: 2
 ## http://www.senchalabs.org/connect/logger.html
 port: 4000
 server_ip: localhost
-logger: false
+logger: true
 logger_format: dev
 
 # Date / Time format
@@ -78,6 +78,9 @@ disqus_shortname: wylyeak
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: yilia
 exclude_generator:
