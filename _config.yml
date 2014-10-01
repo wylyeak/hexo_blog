@@ -81,6 +81,7 @@ disqus_shortname: wylyeak
 plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-math
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: yilia
 exclude_generator:
