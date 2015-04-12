@@ -11,12 +11,11 @@ npm install -g hexo
 ```
 ## blog init
 ``` shell
-git clone https://github.com/wylyeak/hexo_blog.git
+git clone --recursive git@github.com:wylyeak/hexo_blog.git
 cd hexo_blog
-sudo npm install
-sudo npm install hexo-generator-feed
-sudo npm install hexo-generator-sitemap
-git clone https://github.com/wylyeak/hexo-theme-yilia.git themes/yilia
+npm install
+npm install hexo-generator-feed
+npm install hexo-generator-sitemap
 ```
 
 
